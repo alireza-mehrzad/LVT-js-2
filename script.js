@@ -81,10 +81,31 @@ const num = [1, 2, 3, 4, 5, 6];
 // });
 
 //! map
- num.map((n) => {
-  if (n % 2 == 0) {
-    console.log(n * 5);
-  }
-});
+//  num.map((n) => {
+//   if (n % 2 == 0) {
+//     console.log(n * 5);
+//   }
+// });
 
 //! filter
+
+//? object
+
+const person = {
+  firstName: "alireza",
+  lastName: "Mehrzad",
+  age: 25,
+  isMarried: true,
+  childName: ["mina", " faezeh"],
+  firstChild: {
+    fullName: "mani borhani",
+  },
+};
+
+// console.log(person.age);
+// console.log(person.isMarried);
+// console.log(person.firstChild.fullName);
+
+let myClass = ["Mahnaz", "Mina", " Ali", "Zahra", "Mamad"];
+
+console.log(myClass);
